@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.projectmobile.MainActivity"/>
+        <activity android:name="com.example.projectmobile.OefenActivity"></activity>
+        <activity android:name="com.example.projectmobile.SpeelActivity"></activity>
+        <activity android:name="com.example.projectmobile.ScoreActivity"></activity>
+        <activity android:name="com.example.projectmobile.OverActivity"></activity>
     </application>
-
 </manifest>
