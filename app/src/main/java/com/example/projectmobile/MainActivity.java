@@ -43,11 +43,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openOefen(){
-        Intent intent = new Intent(this, OefenActivity.class);
+        Intent intent = new Intent(this, oefenspeelActivity.class);
+        intent.putExtra("LayoutSoort", "oefen");
         startActivity(intent);
     }
     public void openSpeel(){
-        Intent intent = new Intent(this, SpeelActivity.class);
+        Intent intent = new Intent(this, oefenspeelActivity.class);
+        intent.putExtra("LayoutSoort", "speel");
         startActivity(intent);
     }
     public void openScore(){
